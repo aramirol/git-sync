@@ -2,7 +2,7 @@
 
 ![GitHub](https://img.shields.io/github/license/aramirol/git-sync)
 ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/aramirol/git-sync/main?logo=github)
-![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/aramirol/git-sync?logo=git&logoColor=white)
+![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/aramirol/git-sync?logo=github)
 
 Git Sync is a tool that allows you to synchronize `GitHub` repositories with `GitLab`.
 
