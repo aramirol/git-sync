@@ -1,4 +1,4 @@
-# Git Sync
+# :leaves: Git Sync
 
 ![GitHub](https://img.shields.io/github/license/aramirol/git-sync)
 ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/aramirol/git-sync/main?logo=github)
