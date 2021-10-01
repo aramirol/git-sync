@@ -2,18 +2,18 @@ name: 'Git Sync'
 description: 'Git Sync is a tool that allows you to synchronize GitHub repositories with GitLab.'
 
 branding:
-  icon: upload-cloud
-  color: gray-dark
+  icon: git-merge
+  color: orange
 
 inputs:
-  target-url:
-    description: 'Target Repo URL'
+  gitlab-url:
+    description: 'GitLab Repo URL'
     required: true
-  target-username:
-    description: 'Target Repo Username'
+  gitlab-username:
+    description: 'GitLab Repo Username'
     required: true
-  target-token:
-    description: 'Target Token'
+  gitlab-token:
+    description: 'GitLab Token'
     required: true
 runs:
   using: "composite"
@@ -21,7 +21,7 @@ runs:
     - run: ${{ github.action_path }}/entrypoint.sh
       shell: bash
       env:
-        INPUT_TARGET_URL: ${{ inputs.target-url }}
-        INPUT_TARGET_USERNAME: ${{ inputs.target-username }}
-        INPUT_TARGET_TOKEN: ${{ inputs.target-token }}
+        INPUT_GITLAB_URL: ${{ inputs.gitlab-url }}
+        INPUT_GITLAB_USERNAME: ${{ inputs.gitlab-username }}
+        INPUT_GITLAB_TOKEN: ${{ inputs.gitlab-token }}
         GITHUB_EVENT_REF: ${{ github.event.ref }}

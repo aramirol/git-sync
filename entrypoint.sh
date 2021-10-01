@@ -1,9 +1,9 @@
-git remote add target https://${INPUT_TARGET_USERNAME}:${INPUT_TARGET_TOKEN}@${INPUT_TARGET_URL#https://}
+git remote add gitlab https://${INPUT_GITLAB_USERNAME}:${INPUT_GITLAB_TOKEN}@${INPUT_GITLAB_URL#https://}
 
 case "${GITHUB_EVENT_NAME}" in
     push)
-        git push -f --all target
-        git push -f --tags target
+        git push -f --all gitlab
+        git push -f --tags gitlab
         ;;
     delete)
         git push -d target ${GITHUB_EVENT_REF}
