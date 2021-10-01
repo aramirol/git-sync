@@ -21,7 +21,7 @@ Add the following secrets to your GitHub repo:
 Use `GitHub Actions` to configure a new `workflow` that sync your GitHub repository to GitLab.
 
 ```yml
-name: <action-name>
+name: git-sync
 
 on: 
   - push
@@ -37,9 +37,10 @@ jobs:
         fetch-depth: 0
     - uses: aramirol/git-sync@v0.1
       with:
-        gitlab-url: <gitlab-url>
-        gitlab-username: <gitlab-username>
-        gitlab-token: <gitlab-token>
+        gitlab-url: ${{ secrets.GITLAB_URL }}
+        gitlab-username: ${{ secrets.GITLAB_USERNAME }}
+        gitlab-token: ${{ secrets.GITLAB_TOKEN }}
+
 ```
 
 ## License
