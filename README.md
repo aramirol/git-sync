@@ -13,8 +13,8 @@ Add the following secrets to your GitHub repo:
 | Name  | Value  |
 |:----------|:----------|
 | **GITLAB_URL**  | `https://gitlab.com/<<username>>/<<project>>`  |
-| **TARGET_USERNAME**    | `gitlab username`    |
-| **TARGET_TOKEN**   | `gitlab token`    |
+| **GITLAB_USERNAME**    | `gitlab username`    |
+| **GITLAB_TOKEN**   | `gitlab token`    |
 
 ## Configure
 
