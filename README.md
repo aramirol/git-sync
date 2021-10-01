@@ -8,7 +8,7 @@ Git Sync is a tool that allows you to synchronize `GitHub` repositories with `Gi
 
 ## Requirements
 
-Add the following secrets to your GitHub repo:
+Add the following secrets in your `GitHub repository`:
 
 | Name  | Value  |
 |:----------|:----------|
@@ -19,6 +19,8 @@ Add the following secrets to your GitHub repo:
 ## Configure
 
 Use `GitHub Actions` to configure a new `workflow` that sync your GitHub repository to GitLab.
+
+Ensure set up a workflow yourself and copy the following code:
 
 ```yml
 name: git-sync
