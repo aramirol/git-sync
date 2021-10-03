@@ -1,7 +1,7 @@
 # :leaves: Git Sync
 
 ![GitHub](https://img.shields.io/github/license/aramirol/git-sync)
-![GitHub last commit (branch)](https://img.shields.io/github/last-commit/aramirol/git-sync/main?logo=github)
+![GitHub last commit (branch)](https://img.shields.io/github/last-commit/aramirol/git-sync/main)
 ![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/aramirol/git-sync?logo=github)
 
 Git Sync is a tool that allows you to synchronize `GitHub` repositories with `GitLab`.
@@ -16,11 +16,13 @@ Add the following secrets in your `GitHub repository`:
 | **GITLAB_USERNAME**    | `gitlab username`    |
 | **GITLAB_TOKEN**   | `gitlab token`    |
 
+Make sure that the remote repository branch is not protected or allows for force push.
+
 ## Configure
 
 Use `GitHub Actions` to configure a new `workflow` that sync your GitHub repository to GitLab.
 
-Ensure set up a workflow yourself and copy the following code:
+Ensure set up a workflow yourself and copy the following template:
 
 ```yml
 name: git-sync
@@ -31,7 +33,7 @@ on:
 
 jobs:
   sync:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     name: Git Sync
     steps:
     - uses: actions/checkout@v2
