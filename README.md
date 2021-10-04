@@ -6,8 +6,8 @@
 
 Git Sync is a tool that allows you to synchronize `GitHub` repositories with `GitLab`.
 
-### Action Status
-[![git-sync](https://github.com/aramirol/git-sync/actions/workflows/main.yml/badge.svg)](https://github.com/aramirol/git-sync/actions/workflows/main.yml)
+#### Action Status
+ [![git-sync](https://github.com/aramirol/git-sync/actions/workflows/main.yml/badge.svg)](https://github.com/aramirol/git-sync/actions/workflows/main.yml)
 
 ## Requirements
 
