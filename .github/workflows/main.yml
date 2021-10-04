@@ -14,6 +14,6 @@ jobs:
         fetch-depth: 0
     - uses: aramirol/git-sync@v0.1
       with:
-        repo-dest-url: https://github.com/aramirol/git-sync.git
-        repo-dest-username: aramirol
-        repo-dest-token: ${{ secrets.USER_TOKEN }}
+        repo-url: https://github.com/aramirol/git-sync.git
+        repo-username: aramirol
+        repo-token: ${{ secrets.USER_TOKEN }}
