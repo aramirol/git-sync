@@ -6,14 +6,14 @@ branding:
   color: orange
 
 inputs:
-  repo-dest-url:
-    description: 'GitLab Repo URL'
+  repo-url:
+    description: 'Destination Repo URL'
     required: true
-  repo-dest-username:
-    description: 'GitLab Repo Username'
+  repo-username:
+    description: 'Destination Repo Username'
     required: true
-  repo-dest-token:
-    description: 'GitLab Token'
+  repo-token:
+    description: 'Destination Repo User Token'
     required: true
 runs:
   using: "composite"
@@ -21,7 +21,7 @@ runs:
     - run: ${{ github.action_path }}/entrypoint.sh
       shell: bash
       env:
-        INPUT_REPO_DEST_URL: ${{ inputs.repo-dest-url }}
-        INPUT_REPO_DEST_USERNAME: ${{ inputs.repo-dest-username }}
-        INPUT_REPO_DEST_TOKEN: ${{ inputs.repo-dest-token }}
+        INPUT_REPO_URL: ${{ inputs.repo-url }}
+        INPUT_REPO_USERNAME: ${{ inputs.repo-username }}
+        INPUT_REPO_TOKEN: ${{ inputs.repo-token }}
         GITHUB_EVENT_REF: ${{ github.event.ref }}
