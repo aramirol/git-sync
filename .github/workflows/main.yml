@@ -14,6 +14,6 @@ jobs:
         fetch-depth: 0
     - uses: aramirol/git-sync@v0.1
       with:
-        gitlab-url: https://github.com/aramirol/git-sync.git
-        gitlab-username: aramirol
-        gitlab-token: ${{ secrets.USER_TOKEN }}
+        repository-url: https://github.com/aramirol/git-sync.git
+        repository-username: aramirol
+        repository-token: ${{ secrets.USER_TOKEN }}
