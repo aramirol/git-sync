@@ -21,7 +21,7 @@ runs:
     - run: ${{ github.action_path }}/entrypoint.sh
       shell: bash
       env:
-        REPO_DEST_URL: ${{ inputs.repo-dest-url }}
-        REPO_DEST_USERNAME: ${{ inputs.repo-dest-username }}
-        REPO_DEST_TOKEN: ${{ inputs.repo-dest-token }}
+        INPUT_REPO_DEST_URL: ${{ inputs.repo-dest-url }}
+        INPUT_REPO_DEST_USERNAME: ${{ inputs.repo-dest-username }}
+        INPUT_REPO_DEST_TOKEN: ${{ inputs.repo-dest-token }}
         GITHUB_EVENT_REF: ${{ github.event.ref }}
