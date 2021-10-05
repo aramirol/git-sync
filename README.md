@@ -1,4 +1,4 @@
-# :leaves: Git Sync
+<img src="git-sync.png" width="30%" />
 
 [![git-sync](https://github.com/aramirol/git-sync/actions/workflows/main.yml/badge.svg)](https://github.com/aramirol/git-sync/actions/workflows/main.yml)
 [![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/aramirol/git-sync?logo=github)](https://github.com/aramirol/git-sync/releases)
@@ -39,7 +39,7 @@ jobs:
     - uses: actions/checkout@v2
       with:
         fetch-depth: 0
-    - uses: aramirol/git-sync@v0.1
+    - uses: aramirol/git-sync@v1.0
       with:
         gitlab-url: ${{ secrets.GITLAB_URL }}
         gitlab-username: ${{ secrets.GITLAB_USERNAME }}
