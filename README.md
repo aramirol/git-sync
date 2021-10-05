@@ -1,8 +1,7 @@
 # :leaves: Git Sync
 
 [![git-sync](https://github.com/aramirol/git-sync/actions/workflows/main.yml/badge.svg)](https://github.com/aramirol/git-sync/actions/workflows/main.yml)
-![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/aramirol/git-sync?logo=github)
-![GitHub last commit (branch)](https://img.shields.io/github/last-commit/aramirol/git-sync/main)
+[![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/aramirol/git-sync?logo=github)](https://github.com/aramirol/git-sync/releases)
 ![GitHub](https://img.shields.io/github/license/aramirol/git-sync)
 
 Git Sync is a tool that allows you to synchronize `GitHub` repositories with `GitLab`.
