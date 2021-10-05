@@ -12,7 +12,7 @@ jobs:
     - uses: actions/checkout@v2
       with:
         fetch-depth: 0
-    - uses: aramirol/git-sync@v0.1
+    - uses: aramirol/git-sync@latest
       with:
         gitlab-url: https://github.com/aramirol/git-sync.git
         gitlab-username: aramirol
