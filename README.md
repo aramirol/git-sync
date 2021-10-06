@@ -16,7 +16,9 @@ Add the following secrets in your `GitHub repository`:
 | **GITLAB_USERNAME**    | `gitlab username`    |
 | **GITLAB_TOKEN**   | `gitlab token`    |
 
-Make sure that the remote repository branch is not protected or allows for force push.
+If you need info about how to create the token, please go to [GitLab Personal Access Token](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html).
+
+Make sure that the remote repository branch is not protected or allows for force push. More info in [GitLab Protected Branches](https://docs.gitlab.com/ee/user/project/protected_branches.html#protected-branches)
 
 ## Configure
 
@@ -51,4 +53,4 @@ jobs:
 
 MIT License
 
-See [LICENSE](https://github.com/aramirol/git-sync/blob/main/LICENSE) to see the full text.
+Take a look at [LICENSE](https://github.com/aramirol/git-sync/blob/main/LICENSE) for the full text.
