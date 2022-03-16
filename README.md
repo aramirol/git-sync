@@ -1,3 +1,4 @@
+# Git Sync
 <img src="git-sync.png" width="30%" />
 
 [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/aramirol/git-sync/git-sync?label=git-sync&logo=git&logoColor=white)](https://github.com/aramirol/git-sync/actions/workflows/main.yml)
