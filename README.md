@@ -2,9 +2,9 @@
 
 ![](images/git-sync.png)
 
-[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/aramirol/git-sync/git-sync?label=git-sync&logo=git&logoColor=white)](https://github.com/aramirol/git-sync/actions/workflows/main.yml)
-[![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/aramirol/git-sync?logo=git&logoColor=white)](https://github.com/aramirol/git-sync/releases)
-[![GitHub](https://img.shields.io/github/license/aramirol/git-sync?color=informational)](https://github.com/aramirol/git-sync/blob/main/LICENSE)
+[![git-sync](https://github.com/aramirol/git-sync/actions/workflows/main.yml/badge.svg)](https://github.com/aramirol/git-sync/actions/workflows/main.yml)
+[![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/aramirol/git-sync?logo=git&logoColor=lightgrey)](https://github.com/aramirol/git-sync/releases)
+[![GitHub](https://img.shields.io/github/license/aramirol/git-sync?logo=github&logoColor=lightgrey)](https://github.com/aramirol/git-sync/blob/main/LICENSE)
 
 Git Sync is a tool that allows you to synchronize `GitHub` repositories with `GitLab`.
 
