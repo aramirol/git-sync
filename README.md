@@ -3,6 +3,7 @@
 ![](images/git-sync.png)
 
 [![git-sync](https://github.com/aramirol/git-sync/actions/workflows/main.yml/badge.svg)](https://github.com/aramirol/git-sync/actions/workflows/main.yml)
+
 [![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/aramirol/git-sync?logo=git&logoColor=lightgrey)](https://github.com/aramirol/git-sync/releases)
 [![GitHub](https://img.shields.io/github/license/aramirol/git-sync?logo=github&logoColor=lightgrey)](https://github.com/aramirol/git-sync/blob/main/LICENSE)
 
