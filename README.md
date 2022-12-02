@@ -29,7 +29,7 @@ Use `GitHub Actions` to configure a new `workflow` that sync your GitHub reposit
 
 Ensure set up a workflow yourself and copy the following template:
 
-```yml
+```yaml
 name: git-sync
 
 on: 
